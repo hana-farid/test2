@@ -143,7 +143,7 @@ def get_response(conversation):
     # Initialize the AzureOpenAI client
     client = AzureOpenAI(
         api_key=os.getenv("AZURE_OPENAI_KEY"),  
-        #api_version="2023-09-15-preview",
+        api_version="2024-08-01-preview",
         azure_endpoint=os.getenv("AZURE_OPENAI_ENDPOINT")
     )
 
